@@ -1,0 +1,6 @@
+{
+  "articles":"<?php $html = '<table><tr><th>Id</th><th>Title</th><th>Author</th><th>Summary</th><th>Date Published</th></tr>';foreach($data['articles'] as $article){$html = $html.'<tr><td>'.$article['id'].'</td><td>'.$article['title'].'</td><td>'.$article['author'].'</td><td>'.$article['summary'].'</td><td>'.$article['date'].'</td></tr>';}$html = $html.'</table>';echo $html; ?>",
+  "users":"users is also fine",
+  "media":"great collection btw",
+  "comments":"witty very witty"
+}

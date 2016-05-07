@@ -1,0 +1,89 @@
+.upper-left-glyphs{
+    position: absolute;
+    list-style: none;
+    left: 120px;
+   top: 20px; 
+    clear: left;
+    font-size: 20px;
+    
+}
+.upper-right-glyphs{
+   position: absolute;
+    list-style: none;
+    right: 100px;
+    top: 20px;
+    clear: right;
+    font-size: 20px;
+}
+.upper-left-glyphs>li{
+    float: left;
+    margin-right: 20px;
+
+}
+.upper-right-glyphs>li{
+    float: right;
+    margin-left: 20px;
+}
+.hidden-upper-right-glyphs{
+    height: 100px;
+    width: 200px;
+    background-color: #ffffff;
+    z-index:999;
+    font-size: 20px;
+    clear: both;
+    position: absolute;
+    top: 30px;
+    right: -70px;
+    display:none;
+    box-shadow: 10px 10px 20px #888888;
+}
+.hidden-upper-right-glyphs>a{
+    margin-left: 20px;
+}
+#tray:hover #admin_extras{
+    display: block;
+    
+}
+.list-width{
+    width: 200px;
+}
+.col-padding-zero{
+    background-color: bisque;
+    padding-left: 0px;
+}
+.admin-list:first-child{
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.admin-list:last-child{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.footer{
+    height: 60px;
+    background-color: bisque;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+.blank{
+    height: 50px;
+}
+.admin-input{
+    border-radius: 0px;
+    box-shadow: 0;
+    font-family: sans-serif;
+}
+.main-edit-form{
+    border: 1px solid black;
+    width: 750px;
+}
+.edit-side{
+    border: 1px solid black;
+    height: 900px;
+    width:300px;
+    position: absolute;
+    top: 50px;
+    right: -50px;
+    
+}

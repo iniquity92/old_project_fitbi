@@ -1,0 +1,95 @@
+.btn-user,.btn-trainer{
+    border-radius: 0px;
+    position: absolute;
+    top: 15px;
+    background-color: #fed37d;
+    color: #ffffff;
+    border-color: #fed37d;
+}
+
+.btn-user{
+    right: 20%;
+}
+.btn-trainer{
+    right: 20%;
+}
+.btn-user:hover,.btn-trainer:hover{
+    background-color: #fed37d;
+    border-color: #fff266;
+}
+.input-search{
+    position: relative;
+    top:55px;
+    left:0px;
+}
+.input-lg{
+    border-radius: 0px;
+}
+/* ******************** media query for smallest displays ****************************** */
+@media screen and (min-width:320px){
+
+    .btn-user,.btn-trainer{
+        border-radius: 0px;
+        position: absolute;
+        background-color: #fed37d;
+        color: #ffffff;
+    }
+    .btn-user{
+        right:85%;
+    }
+    .btn-trainer{
+        right: 20%;
+    }
+    .btn-user:hover,.btn-trainer:hover{
+        background-color: #fed37d;
+        border-color: #fff266;
+    }
+}
+
+/* ******************** media query for tab displays ****************************** */
+@media screen and (min-width:760px){
+
+    .btn-user,.btn-trainer{
+        border-radius: 0px;
+        position: absolute;
+        top: 15px;
+        background-color: #fed37d;
+        color: #ffffff;
+    }
+    .btn-user{
+        right:25%;
+    }
+    .btn-trainer{
+        right: 20%;
+    }
+    .btn-user:hover,.btn-trainer:hover{
+        background-color: #fed37d;
+        border-color: #fff266;
+    }
+    .btn-user:active{
+        background-color: #fed37d;
+        border-color: #fed37d;
+    }
+}
+
+/* ******************** media query for desktop displays ****************************** */
+@media screen and (min-width:992px){
+
+    .btn-user,.btn-trainer{
+        border-radius: 0px;
+        position: absolute;
+        top: 15px;
+        background-color: #fed37d;
+        color: #ffffff;
+    }
+    .btn-user{
+        right:18%;
+    }
+    .btn-trainer{
+        right: 18%;
+    }
+    .btn-user:hover,.btn-trainer:hover{
+        background-color: #fed37d;
+        border-color: #fff266;
+    }
+}
